@@ -69,7 +69,7 @@ const Login = () => {
         setType('login');
       }
     } catch (error) {
-      Toast.show('系统错误, F12以查看');
+      Toast.show('系统错误');
     }
   };
 
