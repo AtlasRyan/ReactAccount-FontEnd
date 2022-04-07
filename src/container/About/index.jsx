@@ -10,8 +10,8 @@ const About = () => {
       <h2>关于项目</h2>
       <article>全栈学习项目。</article>
       <article>数据库采用mySQL。</article>
-      <article>服务端采用 Node 架构 Egg.js实现CRUD；egg-jwt实现鉴权</article>
-      <article>前端采用 React 框架（HOOKS） + Zarm 移动端组件库 + vite开发构建；使用pushstate-server + pm2运行于服务器。</article>
+      <article>服务端采用 Node 架构 Egg.js</article>
+      <article>前端采用 React 框架（HOOKS） + Zarm 移动端组件库 + vite开发构建工具。</article>
       <h2>关于作者</h2>
       <article>have a try</article>
     </div>
