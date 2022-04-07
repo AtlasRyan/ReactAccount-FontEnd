@@ -11,9 +11,9 @@ module.exports = {
 			host: "47.94.199.134",
 			ref: "origin/main",
 			repo: "git@github.com:AtlasRyan/ReactAccount-FrontEnd.git",
-			path: "/root/workspace/ReactAccount-vite-h5",
+			path: "/root/workspace/ReactAccount-vite",
 			"post-deploy":
-				"git reset --hard && git checkout main && git pull && npm i --production=false && pm2 startOrReload ecosystem.config.js", // -production=false 下载全量包
+				"git reset --hard && git checkout main && git pull && npm i --production=false && npm run build:release && pm2 startOrReload ecosystem.config.js", // -production=false 下载全量包
 			env: {
 				NODE_ENV: "production",
 			},
